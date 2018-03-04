@@ -1,0 +1,10 @@
+E:/src/project/BUILD/demo/CMakeFiles/STE6245TemplateApp.dir
+E:/src/project/BUILD/demo/CMakeFiles/edit_cache.dir
+E:/src/project/BUILD/demo/CMakeFiles/rebuild_cache.dir
+E:/src/project/BUILD/demo/simulatoraspect/CMakeFiles/simulatoraspect.dir
+E:/src/project/BUILD/demo/simulatoraspect/CMakeFiles/edit_cache.dir
+E:/src/project/BUILD/demo/simulatoraspect/CMakeFiles/rebuild_cache.dir
+E:/src/project/BUILD/demo/unittests/CMakeFiles/edit_cache.dir
+E:/src/project/BUILD/demo/unittests/CMakeFiles/rebuild_cache.dir
+E:/src/project/BUILD/demo/benchmarks/CMakeFiles/edit_cache.dir
+E:/src/project/BUILD/demo/benchmarks/CMakeFiles/rebuild_cache.dir

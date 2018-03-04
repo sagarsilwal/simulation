@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="STE6245TemplateApp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Qt\;CMake Files\..\..\..\Qt\Qt\;CMake Files\..\..\..\Qt\Qt\5.9.3\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DQuickExtras\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DExtras\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DRender\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DCore\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DInput\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gamepad\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DLogic\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DQuick\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Quick\;CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\;CMake Files\..\BUILD\;CMake Files\..\BUILD\gmlib2qt\;CMake Files\..\BUILD\gmlib2qt\cmake\;CMake Files\resources\;CMake Files\resources\qml\;CMake Files\simulatoraspect\;CMake Files\unittests\;CMake Files\benchmarks\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/src/project/BUILD/demo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STE6245TemplateApp">
+				<Option output="E:/src/project/BUILD/demo/STE6245TemplateApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/src/project/BUILD/demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-DQT_3DEXTRAS_LIB"/>
+					<Add option="-DQT_3DRENDER_LIB"/>
+					<Add option="-DQT_3DCORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_3DINPUT_LIB"/>
+					<Add option="-DQT_GAMEPAD_LIB"/>
+					<Add option="-DQT_3DLOGIC_LIB"/>
+					<Add option="-DQT_3DQUICK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_3DQUICKEXTRAS_LIB"/>
+					<Add directory="E:/src/project/demo/simulatoraspect"/>
+					<Add directory="E:/src/project/gmlib2qt/sources"/>
+					<Add directory="E:/src/project/gmlib2/include"/>
+					<Add directory="E:/src/vcpkg-master/vcpkg-master/installed/x64-windows/include"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DExtras"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DRender"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DCore"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtNetwork"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DInput"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtGamepad"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DLogic"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DQuick"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtQuick"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtQml"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DQuickExtras"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 STE6245TemplateApp"/>
+					<CompileFile command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STE6245TemplateApp/fast">
+				<Option output="E:/src/project/BUILD/demo/STE6245TemplateApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/src/project/BUILD/demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-DQT_3DEXTRAS_LIB"/>
+					<Add option="-DQT_3DRENDER_LIB"/>
+					<Add option="-DQT_3DCORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_3DINPUT_LIB"/>
+					<Add option="-DQT_GAMEPAD_LIB"/>
+					<Add option="-DQT_3DLOGIC_LIB"/>
+					<Add option="-DQT_3DQUICK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_3DQUICKEXTRAS_LIB"/>
+					<Add directory="E:/src/project/demo/simulatoraspect"/>
+					<Add directory="E:/src/project/gmlib2qt/sources"/>
+					<Add directory="E:/src/project/gmlib2/include"/>
+					<Add directory="E:/src/vcpkg-master/vcpkg-master/installed/x64-windows/include"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DExtras"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DRender"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DCore"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtNetwork"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DInput"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtGamepad"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DLogic"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DQuick"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtQuick"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtQml"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DQuickExtras"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 STE6245TemplateApp/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/src/project/BUILD/demo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/src/project/BUILD/demo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simulatoraspect">
+				<Option output="E:/src/project/BUILD/demo/simulatoraspect/simulatoraspect.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/src/project/BUILD/demo/simulatoraspect"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-DQT_3DEXTRAS_LIB"/>
+					<Add option="-DQT_3DRENDER_LIB"/>
+					<Add option="-DQT_3DCORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_3DINPUT_LIB"/>
+					<Add option="-DQT_GAMEPAD_LIB"/>
+					<Add option="-DQT_3DLOGIC_LIB"/>
+					<Add option="-DQT_3DQUICK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add directory="E:/src/project/gmlib2qt/sources"/>
+					<Add directory="E:/src/project/gmlib2/include"/>
+					<Add directory="E:/src/vcpkg-master/vcpkg-master/installed/x64-windows/include"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DExtras"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DRender"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DCore"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtNetwork"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DInput"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtGamepad"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DLogic"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DQuick"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtQuick"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtQml"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\src\project\BUILD\demo\simulatoraspect\Makefile VERBOSE=1 simulatoraspect"/>
+					<CompileFile command="nmake /NOLOGO /f E:\src\project\BUILD\demo\simulatoraspect\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\simulatoraspect\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\simulatoraspect\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simulatoraspect/fast">
+				<Option output="E:/src/project/BUILD/demo/simulatoraspect/simulatoraspect.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/src/project/BUILD/demo/simulatoraspect"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-DQT_3DEXTRAS_LIB"/>
+					<Add option="-DQT_3DRENDER_LIB"/>
+					<Add option="-DQT_3DCORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_3DINPUT_LIB"/>
+					<Add option="-DQT_GAMEPAD_LIB"/>
+					<Add option="-DQT_3DLOGIC_LIB"/>
+					<Add option="-DQT_3DQUICK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add directory="E:/src/project/gmlib2qt/sources"/>
+					<Add directory="E:/src/project/gmlib2/include"/>
+					<Add directory="E:/src/vcpkg-master/vcpkg-master/installed/x64-windows/include"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DExtras"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DRender"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DCore"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtNetwork"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DInput"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtGamepad"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DLogic"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/Qt3DQuick"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtQuick"/>
+					<Add directory="E:/Qt/Qt/5.9.3/msvc2017_64/include/QtQml"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\src\project\BUILD\demo\simulatoraspect\Makefile VERBOSE=1 simulatoraspect/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\src\project\BUILD\demo\simulatoraspect\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\simulatoraspect\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\src\project\BUILD\demo\simulatoraspect\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/src/project/BUILD/demo/qrc_qml.cpp">
+			<Option target="STE6245TemplateApp"/>
+		</Unit>
+		<Unit filename="E:/src/project/BUILD/demo/simulatoraspect/moc_rotatecontroller.cpp">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/BUILD/demo/simulatoraspect/moc_rotatecontroller.cpp.rule">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/BUILD/demo/simulatoraspect/moc_simulatoraspect.cpp">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/BUILD/demo/simulatoraspect/moc_simulatoraspect.cpp.rule">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/BUILD/demo/simulatoraspect/moc_translatecontroller.cpp">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/BUILD/demo/simulatoraspect/moc_translatecontroller.cpp.rule">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/guiapplication.cpp">
+			<Option target="STE6245TemplateApp"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/guiapplication.h">
+			<Option target="STE6245TemplateApp"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/main.cpp">
+			<Option target="STE6245TemplateApp"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/resources/qml/qml.qrc">
+			<Option target="STE6245TemplateApp"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/collision_algorithms.h">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/rotatecontroller.cpp">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/rotatecontroller.h">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/rotatecontrollerbackend.cpp">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/rotatecontrollerbackend.h">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/simulatoraspect.cpp">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/simulatoraspect.h">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/simulatoraspecttypes.h">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/simulatorjob.cpp">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/simulatorjob.h">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/translatecontroller.cpp">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/translatecontroller.h">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/translatecontrollerbackend.cpp">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/translatecontrollerbackend.h">
+			<Option target="simulatoraspect"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DQuickExtras/Qt53DQuickExtrasConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DQuickExtras\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DQuickExtras/Qt53DQuickExtrasConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DQuickExtras\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DExtras/Qt53DExtrasConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DExtras\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DExtras/Qt53DExtrasConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DExtras\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DRender/Qt53DRenderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DRender\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DRender/Qt53DRenderConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DRender\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DRender/Qt53DRender_AssimpSceneImportPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DRender\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DRender/Qt53DRender_DefaultGeometryLoaderPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DRender\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DRender/Qt53DRender_GLTFGeometryLoaderPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DRender\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DRender/Qt53DRender_GLTFSceneExportPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DRender\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DRender/Qt53DRender_GLTFSceneImportPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DRender\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DRender/Qt53DRender_Scene2DPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DRender\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DCore/Qt53DCoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DCore\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DCore/Qt53DCoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DCore\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Network/Qt5Network_QNativeWifiEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DInput/Qt53DInputConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DInput\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DInput/Qt53DInputConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DInput\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gamepad/Qt5GamepadConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gamepad\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gamepad/Qt5GamepadConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gamepad\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Gamepad/Qt5Gamepad_QXInputGamepadBackendPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Gamepad\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DLogic/Qt53DLogicConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DLogic\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DLogic/Qt53DLogicConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DLogic\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DQuick/Qt53DQuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DQuick\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt53DQuick/Qt53DQuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt53DQuick\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../../../Qt/Qt/5.9.3/msvc2017_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\Qt\5.9.3\msvc2017_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../BUILD/gmlib2qt/cmake/gmlib2qt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\BUILD\gmlib2qt\cmake\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../BUILD/gmlib2qt/cmake/gmlib2qtConfig.cmake">
+			<Option virtualFolder="CMake Files\..\BUILD\gmlib2qt\cmake\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/../BUILD/gmlib2qt/cmake/gmlib2qtConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\BUILD\gmlib2qt\cmake\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/resources/qml/qml.qrc">
+			<Option virtualFolder="CMake Files\resources\qml\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/simulatoraspect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simulatoraspect\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/unittests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittests\"/>
+		</Unit>
+		<Unit filename="E:/src/project/demo/benchmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\benchmarks\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

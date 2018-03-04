@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+834893b4d28482572be23d7c5bba7ac5 qrc_qml.cpp
+b44ab8634c53302ca79d78b032694070 simulatoraspect/moc_rotatecontroller.cpp
+d3e72763d04f5a8351169b1bbe2579c9 simulatoraspect/moc_simulatoraspect.cpp
+5bd59a865e7326ae0efb70421ff3fe70 simulatoraspect/moc_translatecontroller.cpp

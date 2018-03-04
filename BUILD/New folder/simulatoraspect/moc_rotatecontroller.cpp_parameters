@@ -1,0 +1,5 @@
+-DWIN32
+--compiler-flavor=msvc
+-o
+E:/src/project/BUILD/demo/simulatoraspect/moc_rotatecontroller.cpp
+E:/src/project/demo/simulatoraspect/rotatecontroller.h
